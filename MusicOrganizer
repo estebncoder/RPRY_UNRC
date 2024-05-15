@@ -1,0 +1,18 @@
+public class MusicOrganizer{
+    private ArrayList<String>files;
+    public MusicOrganizer(){
+        files = new ArrayList<>();
+    }
+    public void addfile(String filname){
+    file.add(filename);
+    }
+    public int getNumberOfFiles(){
+        return files.size():
+    }
+    public void ListFile(int index){
+        if(index >= 0 && index < files.size()){
+            String filename = file.get(index);
+            System.out.println(filename);
+        }
+    }
+}
